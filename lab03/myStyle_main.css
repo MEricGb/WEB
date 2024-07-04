@@ -1,0 +1,22 @@
+.center_div{
+    display:inline-block
+}
+
+#frame1_2{
+    border: 3px dotted;
+    /* TODO - Set the width and height of the iframes */
+    width: 40vw;
+    height: 40vh;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+#frame3{
+    /* TODO - Set the width and height of the iframes */
+    width: 40vw;
+    height: 40vw;
+    margin-top:5%;
+    margin-left:70%;
+
+}

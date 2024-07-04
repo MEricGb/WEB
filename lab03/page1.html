@@ -1,0 +1,89 @@
+<!-- Modify just the TODOs -->
+<!DOCTYPE html>
+<html>
+<head> 
+<title>Laborator 3 page 1</title>
+<!-- TODO - link the existing stylesheet myStyle_page_1.css to the .html file -->
+<link rel = "stylesheet" href = "myStyle_page_1.css"/>
+</head>
+
+<body>
+    <!-- TODO - create the form -->
+    <form>
+        <!-- TODO - connect the fieldset with the coresponding CSS class 'fieldset_style' -->
+        <fieldset class="fieldset_style">
+                <!-- Text INPUT -->
+                <!-- TODO - create a section with the 'text' type of input elements for 'Nume' and 'Prenume' -->
+                <label for="fname" >Nume:</label><br>
+                <input type="text" id="fname"><br>
+                <label for="lname">Prenume:</label><br>
+                <input type="text" id="lname"><br><br>
+                
+                <!-- TODO - create a label for 'Nume' and connect it with the input  -->
+                <!-- TODO - create the input for 'Nume' and connect it with the coresponding CSS id 'fname'  -->
+
+                <!-- TODO - do the same for 'Prenume' -->
+
+
+                <!-- Checkbox INPUT -->
+                <!-- TODO - create a section with the 'checkbox' type of input elements for 'Activitati preferate' and 'Limbaje preferate' -->
+                <p>Activitati preferate:</p>
+                <!-- TODO - create an 'checkbox' type of input and link it to the label through the 'id' -->
+                <input type="checkbox" id="choice1" name="choice1" value="1">
+                <label for="choice1"> Desenat</label><br>
+                <input type="checkbox" id="choice2" name="choice2" value="2">
+                <label for="choice2"> Citit</label><br>
+                <input type="checkbox" id="choice3" name="choice3" value="3">
+                <label for="choice3"> Seriale</label><br>
+                <input type="checkbox" id="choice3" name="choice4" value="4">
+                <label for="choice4"> Alergat</label><br><br>
+
+                <p>Limbaje preferate:</p>
+                <!-- TODO - create an 'checkbox' type of input and link it to the label through the 'id' -->
+                <input type="checkbox" id="choice1">
+                <label for="choice1">C/C++</label><br>
+                <input type="checkbox" id="choice2">
+                <label for="choice2">Python</label><br>
+                <input type="checkbox" id="choice3">
+                <label for="choice3">JavaScript</label><br>
+                <input type="checkbox" id="choice4">
+                <label for="choice4">Java</label><br>
+                
+
+                <!-- Radio INPUT -->
+                <!-- TODO - create a section with the 'radio' type of input elements -->
+                <p> Sexul: </p>
+                <!-- TODO - create an 'radio' type of input and link it to the label through the 'id' -->
+                <!-- TODO - don't forget to add the SAME 'name' attribute to all the inputs-->
+                <input type="radio" id="1">
+                <label for="1">Feminin</label><br>
+                <input type="radio" id="2">
+                <label for="2">Masculin</label><br>
+                <input type="radio" id="3">
+                <label for="3">Altele</label><br><br>
+
+
+                <!-- Dropdown list-->
+                <label for="facultate"> Alegeti facultatea: </label>
+                    <!-- TODO - create a 'select' element and connect it with the coresponding CSS id 'facultate' -->
+                    <select id="facultate">
+                        <option value="ETTI">ETTI</option>
+                        <option value="ACS">ACS</option>
+                        <option value="TRANSPORTURI">TRANSPORTURI</option>
+                        <option value="ENERGETICA">ENERGETICA</option>
+                        <option value="INGINERIEEL">INGINERIEEL</option>
+                        <!-- TODO - inside the select element create three options for the dropdown list -->
+                    </select>
+                
+                
+                <!-- Submit Button-->
+                <p>  <!-- TODO - create a submit button--> <input type="submit">   </p>
+
+                
+                <!-- Reset Button-->
+                <!-- TODO - create a reset button -->
+                <input type="reset">
+        </fieldset>
+    </form>
+</body>
+</html>

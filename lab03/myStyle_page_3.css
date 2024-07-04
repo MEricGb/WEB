@@ -1,0 +1,21 @@
+.imagine{
+    /*TODO - add the background image */
+    height: 100%;
+    /*TODO - center the image*/;
+    /*TODO - set the size of the image to cover the page */
+    /*TODO - add animation to the image */
+    border-radius: 50%;
+    width: 100%;
+    background-position: -150vw 0;
+    justify-content: center;
+    position: relative;
+    animation: loop 3s infinite;
+    animation-delay: 2s;
+  }
+
+
+  @keyframes loop {
+   /* TODO - make an animation with keywords "from" and "to" */
+   from {right: 250px;}
+   to {right: 0px;}
+  }
